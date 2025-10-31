@@ -5,6 +5,14 @@
 
 <h3 align="center">📘 MENU DRIVEN – SQL | 🐍 DATA ANALYSIS – PANDAS</h3>
 
+<!-- 🎯 Kaggle Notebook Badge -->
+<p align="center">
+  <a href="https://www.kaggle.com/code/arjnvrm/notebook8d5f5bb656" target="_blank">
+    <img src="https://img.shields.io/badge/Open%20in%20Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Open in Kaggle">
+  </a>
+</p>
+
+
 ---
 
 <h2>👥 Team Members</h2>
