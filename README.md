@@ -6,11 +6,24 @@
 <h3 align="center">📘 MENU DRIVEN – SQL | 🐍 DATA ANALYSIS – PANDAS</h3>
 
 <!-- 🎯 Kaggle Notebook Badge -->
-<p align="center">
+
+<div style="border: 2px solid #0077b6; border-radius: 12px; padding: 20px; background-color: #f0f8ff; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+
+  <p align="center">
+    <a href="https://www.kaggle.com/code/arjnvrm/notebooke970a9c148" target="_blank">
+      <img src="https://img.shields.io/badge/Open%20Notebook-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Open in Kaggle">
+    </a>
+  </p>
+
+  <p align="center">
   <a href="https://www.kaggle.com/code/arjnvrm/notebook8d5f5bb656" target="_blank">
     <img src="https://img.shields.io/badge/Open%20in%20Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Open in Kaggle">
   </a>
 </p>
+
+
+</div>
+
 
 
 ---
