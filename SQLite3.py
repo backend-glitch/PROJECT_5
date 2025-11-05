@@ -2,11 +2,11 @@ import sqlite3
 import pandas as pd
 import time
 
-# Create or connect to SQLite database file
+
 db = sqlite3.connect("pocketdir.db")
 cursor = db.cursor()
 
-# Create table if not exists
+
 cursor.execute("""
     CREATE TABLE IF NOT EXISTS contact_information(
         name TEXT PRIMARY KEY,
