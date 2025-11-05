@@ -31,8 +31,6 @@ def intro():
     print("{:^80s}".format("CONTACT"))
     print("{:^80s}".format("MANAGEMENT SYSTEM"))
     print("{:^80s}".format("WE ARE HERE TO KEEP YOUR CONTACT DATA ORGANIZED AND ACCESSIBLE"))
-    print("{:^80s}".format("MADE BY: SHUBHAM KUMAR, SOUNAK MAITI AND AYUSH SAHU"))
-    print("{:^80s}".format("CLASS XII SCIENCE"))
     print("=" * 80)
     print()
     time.sleep(0.5)
