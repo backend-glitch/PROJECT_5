@@ -56,7 +56,7 @@
   </tr>
   <tr>
     <td><b>Arjun Verma</b></td>
-    <td>Integrated the contacts dataset with Pandas for analysis using Kaggle Notebooks and using mathopilot graphs for analysis.</td>
+    <td>Integrated the contacts dataset with Pandas for analysis using Kaggle Notebooks and using matplotlib graphs for analysis.</td>
   </tr>
   <tr>
     <td><b>Divyanshu</b></td>
