@@ -48,7 +48,7 @@
   </tr>
   <tr>
     <td><b>Ayush Sahu</b></td>
-    <td>Created SQL queries and designed the code structure for the menu-driven program; implemented it on Kaggle.</td>
+    <td>Created SQL queries and designed the code structure for the menu-driven program.</td>
   </tr>
   <tr>
     <td><b>Abhay Niranjan</b></td>
@@ -56,11 +56,11 @@
   </tr>
   <tr>
     <td><b>Arjun Verma</b></td>
-    <td>Integrated the contacts dataset with Pandas for analysis using Kaggle Notebooks.</td>
+    <td>Integrated the contacts dataset with Pandas for analysis using Kaggle Notebooks and using mathopilot graphs for analysis.</td>
   </tr>
   <tr>
     <td><b>Divyanshu</b></td>
-    <td>Developed additional Pandas filtering and data manipulation commands for deeper analysis.</td>
+    <td>Developed additional Pandas and numpy filtering and data manipulation commands for deeper analysis.</td>
   </tr>
   <tr>
     <td><b>Keshav Singh</b></td>
