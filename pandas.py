@@ -1,9 +1,8 @@
-
-
 import pandas as pd
+import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
-
+import matplotlib.pyplot as plt
 
 df = pd.read_csv("/kaggle/input/new-contact/dataset_100rows.csv")
 
@@ -46,9 +45,6 @@ def filter_by_number_range(start, end):
     display(result)
 
 
-print("\n🔹 Searching for name 'Aman':")
-search_contact("Aman")
-
 print("\n🔹 Contacts from Delhi:")
 filter_by_address("DL")
 
@@ -76,6 +72,42 @@ display(df.sort_values(by='Age'))
 
 print("\n🔹 Basic Statistics:")
 display(df.describe(include='all'))
+
+ages = df['Age'].dropna().to_numpy()
+
+print("\n🔹 NumPy Stats for Age column:")
+print(f"Mean Age: {np.mean(ages):.2f}")
+print(f"Median Age: {np.median(ages):.2f}")
+print(f"Standard Deviation: {np.std(ages):.2f}")
+print(f"Minimum Age: {np.min(ages)}")
+print(f"Maximum Age: {np.max(ages)}")
+
+
+age_array = df['Age'].to_numpy()
+mask = (age_array >= 20) & (age_array <= 30)
+
+print("\n🔹 NumPy-based Age Filter (20–30):")
+display(df[mask])
+
+
+
+plt.figure(figsize=(6, 4))
+plt.hist(df['Age'].dropna(), bins=10, color='skyblue', edgecolor='black')
+plt.title("Age Distribution")
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.show()
+
+
+plt.figure(figsize=(6,4))
+for gender in df['Gender'].dropna().unique():
+    subset = df[df['Gender'] == gender]['Age'].dropna()
+    plt.hist(subset, bins=10, alpha=0.5, label=gender)
+plt.title("Age Distribution by Gender")
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.legend()
+plt.show()
 
 
 
